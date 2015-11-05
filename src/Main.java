@@ -13,7 +13,6 @@ public class Main {
 		try {
             InetAddress address = InetAddress.getByName(ip);
             boolean reachable = address.isReachable(10000);
-
             int index = 0;
             while(index == 0) {
             	if(reachable == true) {
